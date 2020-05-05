@@ -178,6 +178,18 @@
         <key>object_length_linter</key>
         <name>Object Length</name>
         <description>
+            <![CDATA[check that objects name matches snake_case]]>
+        </description>
+        <severity>MINOR</severity>
+        <type>CODE_SMELL</type>
+        <tag>lintr</tag>
+        <remediationFunction>LINEAR</remediationFunction>
+        <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
+    </rule>
+	<rule>
+        <key>object_name_linter</key>
+        <name>Object Name</name>
+        <description>
             <![CDATA[check that objects do are not very long.not have.multiple.dots]]>
         </description>
         <severity>MINOR</severity>
@@ -251,6 +263,42 @@
         <name>Trailing Whitespace</name>
         <description>
             <![CDATA[check there are no trailing whitespace characters]]>
+        </description>
+        <severity>MINOR</severity>
+        <type>CODE_SMELL</type>
+        <tag>lintr</tag>
+        <remediationFunction>LINEAR</remediationFunction>
+        <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
+    </rule>
+	<rule>
+        <key>function_left_parentheses_linter</key>
+        <name>Function Left Parentheses</name>
+        <description>
+            <![CDATA[Remove spaces before the left parenthesis in a function call]]>
+        </description>
+        <severity>MINOR</severity>
+        <type>CODE_SMELL</type>
+        <tag>lintr</tag>
+        <remediationFunction>LINEAR</remediationFunction>
+        <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
+    </rule>
+	<rule>
+        <key>paren_brace_linter</key>
+        <name>Paren Brace</name>
+        <description>
+            <![CDATA[There should be a space between right parenthesis and an opening curly brace]]>
+        </description>
+        <severity>MINOR</severity>
+        <type>CODE_SMELL</type>
+        <tag>lintr</tag>
+        <remediationFunction>LINEAR</remediationFunction>
+        <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
+    </rule>
+	<rule>
+        <key>cyclocomp_linter</key>
+        <name>Cycleocomp</name>
+        <description>
+            <![CDATA[Check for overly complicated expressions]]>
         </description>
         <severity>MINOR</severity>
         <type>CODE_SMELL</type>
